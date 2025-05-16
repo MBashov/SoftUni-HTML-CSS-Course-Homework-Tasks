@@ -1,0 +1,31 @@
+p.highlighted {
+    color: deepskyblue;
+    font-size: large;
+}
+
+div#special {
+    background-color: antiquewhite;
+    padding: 0.1em;
+}
+
+details[open] summary {
+    font-size: 1.2em;
+    color: red;
+}
+
+a {
+    color: green;
+}
+
+a[href^="/"] {
+    color: pink;
+}
+
+a[href^="https://softuni.bg"] {
+    color: orange;
+}
+
+p.class1.class2.class3 {
+    font-style: italic;
+    color: blue;
+}
