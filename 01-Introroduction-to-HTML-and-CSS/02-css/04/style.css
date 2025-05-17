@@ -1,0 +1,16 @@
+header nav ul li a {
+    text-decoration: none;
+}
+
+main.site-content > .service {
+    background-color: lightgray;
+}
+
+.service + .service {
+    color: orange;
+}
+
+.service:first-of-type {
+    color: red;
+    font-size: 2em;
+}
