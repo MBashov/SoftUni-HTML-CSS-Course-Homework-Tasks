@@ -1,0 +1,13 @@
+body {
+    border: solid;
+    margin: 1em;
+    padding: 1em;
+}
+
+h1 + ul li {
+    text-decoration-line: underline;
+}
+
+h2 + ul li {
+    text-decoration-line: line-through;
+}
