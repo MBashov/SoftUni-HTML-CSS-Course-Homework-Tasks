@@ -1,0 +1,9 @@
+div {
+    border: 3px solid black;
+}
+
+img {
+    margin: 1em;
+    padding: 1em;
+    border: solid pink;
+}
