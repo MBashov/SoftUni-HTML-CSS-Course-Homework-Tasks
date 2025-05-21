@@ -6,9 +6,9 @@ p {
 }
 
 .non-uniform-margin {
-    margin: 20px 30px 20px 40px;
+    margin: 10px 30px 20px 40px;
 }
 
-.percentage-margin {
-    margin: 5%;
+.negative-margin {
+    margin: - 20%;
 }
