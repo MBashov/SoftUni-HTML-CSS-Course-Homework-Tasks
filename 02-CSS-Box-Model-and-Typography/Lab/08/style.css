@@ -1,7 +1,7 @@
 div {
     border: 2px, solid, black;
     width: 300px;
-    height: 100px;
+    /* height: 100px; */
     padding: 0.5em;
     margin-bottom: 2em;
 }
@@ -16,4 +16,10 @@ div {
 
 .scroll {
     overflow: scroll;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
 }
