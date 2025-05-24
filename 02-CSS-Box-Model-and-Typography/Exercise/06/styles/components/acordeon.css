@@ -12,7 +12,7 @@
     padding-block: calc(var(--size-padding-inline) / 2);
 }
 
-.acordeon details:not(:last-child) summary {
+.acordeon details summary {
     border: 1px solid #ccc;
 }
 
