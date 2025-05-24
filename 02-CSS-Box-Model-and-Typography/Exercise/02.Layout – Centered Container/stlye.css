@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 2px solid green;
+    padding: 2em;
+}
+
+section {
+    border: 2px solid blue;
+    padding: 2em;
+    max-width: 66ch;
+    margin: 0 auto;
+}
+
+section > * {
+    border: 2px solid black;
+    padding: 2em;
+    text-align: center;
+}
+
+section > *:not(:first-child) {
+    margin-top: 2em;
+
+}
