@@ -1,0 +1,27 @@
+.acordeon {
+    --size-padding-inline: 1.5em;
+    border: 1px solid #ccc;
+}
+
+.acordeon p:last-child {
+    padding: 0;
+}
+
+.acordeon details summary {
+    padding-inline: var(--size-padding-inline);
+    padding-block: calc(var(--size-padding-inline) / 2);
+}
+
+.acordeon details:not(:last-child) summary {
+    border: 1px solid #ccc;
+}
+
+.acordeon details[open]::details-content {
+    padding-inline: var(--size-padding-inline);
+    padding-block: var(--size-padding-inline);
+
+}
+
+.acordeon details:not(:last-child)[open]::details-content {
+    border-bottom: 1px solid #CCC;
+}
