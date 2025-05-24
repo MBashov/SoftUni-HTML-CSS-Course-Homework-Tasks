@@ -1,0 +1,41 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.box-model {
+    max-width: 500px;
+    margin: 3em auto;
+}
+
+.box-model div {
+    border: 1px dashed black;
+    padding: 1.5em;
+    position: relative;
+}
+
+.box-model span {
+    display: block;
+    text-transform: lowercase;
+    position: absolute;
+    top: 0.1em;
+    left: 0.8em;
+}
+
+.box-model .content {
+    text-align: center;
+    background-color: lightblue;
+}
+
+.box-model .padding {
+    background-color: lightgreen;
+}
+
+.box-model .border {
+    background-color: lightyellow;
+}
+
+.box-model .margin {
+    background-color: lightcoral;
+}
