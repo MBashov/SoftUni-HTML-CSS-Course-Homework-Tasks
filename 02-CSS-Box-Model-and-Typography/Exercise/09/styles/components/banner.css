@@ -1,0 +1,24 @@
+.banner {
+    border-radius: 0.4em;
+    overflow: hidden;
+    box-shadow: 0 0 1em 0.5em rgb(0, 0, 0, 0.2);
+    position: relative;
+}
+
+
+.banner header h3 {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.banner header p {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: large;
+}
