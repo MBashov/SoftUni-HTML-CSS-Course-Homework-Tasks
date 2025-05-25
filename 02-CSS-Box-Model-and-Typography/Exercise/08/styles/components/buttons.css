@@ -1,0 +1,44 @@
+html {
+    border: 1px solid black;
+    padding: 2em;
+}
+
+h2 {
+    padding-bottom: 0.3em;
+}
+
+.link-button a {
+    border: 1px solid black;
+    padding: 1em;
+    margin: 3px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.button a {
+    border: 1px solid black;
+    padding: 1em;
+    margin: 3px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.link-button a:nth-child(2),
+.button a:nth-child(2) {
+    background-color: orange;
+}
+
+.link-button a:nth-child(3),
+.button a:nth-child(3) {
+    background-color: lightyellow;
+}
+
+.link-button a:last-child,
+.button a:last-child {
+    background-color: lightgrey;
+}
+
+.link-button a:first-child,
+.button a:first-child {
+    background-color: lightgrey;
+}
