@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    position: inherit;
+}
+
+.box-model {
+    max-width: 500px;
+    margin: 3em auto;
+    position: relative;
+}
+
+.box-model div {
+    border: 1px dashed black;
+    padding: 1.5em;
+}
+
+
+.box-model .content {
+    text-align: center;
+    background-color: lightcoral;
+}
+
+.box-model .padding {
+    background-color: lightsalmon;
+    /* position: relative; */
+}
+
+.box-model .border {
+    background-color: lightpink;
+    /* position: relative; */
+}
+
+.box-model .margin {
+    background-color: orange;
+}
+
+
+.box-model div::before {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0.9em
+}
+
+.box-model .margin::before { content: 'margin'; }
+.box-model .border::before { content: 'border'; }
+.box-model .padding::before { content: 'padding'; }
