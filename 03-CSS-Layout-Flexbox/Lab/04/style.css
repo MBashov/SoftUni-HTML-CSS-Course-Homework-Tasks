@@ -1,0 +1,33 @@
+.flex-container {
+    display: flex;
+    border: 2px solid black;
+    width: 300px;
+    padding: 1em;
+}
+
+.flex-item {
+    border: 2px solid black;
+    background: #eee;
+    padding: 1em;
+}
+
+.flex-start {
+    justify-content: flex-start;
+}
+
+.flex-end {
+    justify-content: flex-end;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.space-around {
+    justify-content: space-around;
+}
+
+.space-evenly {
+    justify-content: space-evenly;
+}
+
