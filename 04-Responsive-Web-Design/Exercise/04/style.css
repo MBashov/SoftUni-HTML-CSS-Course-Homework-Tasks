@@ -1,0 +1,54 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 2em;
+}
+
+table {
+    width: 100%;
+    border: 1px solid #CCC;
+    margin-bottom: 2em;
+    border-collapse: collapse;
+}
+
+table :is(th, td) {
+    border: 1px solid #CCC;
+    padding: 0.5em 0.8em;
+} 
+
+table th {
+    background: #EEE;
+}
+
+@media (width < 600px) {
+    table, thead, tbody, tr, td, th {
+        display: block;
+    }
+
+    table thead {
+        display: none;
+    }
+
+    table {
+        border: none
+    }
+
+    table tr {
+        margin-bottom: 1em;
+        border: 1px solid #CCC;
+    }
+
+    table :is(th, td) {
+        border: none;
+    }
+
+    table td::before {
+        display: inline-block;
+        content: attr(data-title) ':';
+        padding-right: 1em;
+    }
+}
