@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h2 {
+    margin: 0.5em 1em;
+    border: 2px solid salmon;
+}
+
+.site {
+    max-width: 800px;
+    margin: 2em auto;
+    border: 1px solid black;
+}
+
+.galery {
+    border: 2px solid black;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.galery a {
+    flex: 1 1 30%;
+    overflow: hidden;
+    display: block;
+    border: 3px solid black;
+    border-radius: 0.2em;
+    box-shadow: 0 0 1em 0 rgb(0, 0, 0, 0.1);
+    background: #fff;
+}
+
+.galery a img {
+    padding: 1em;
+}
