@@ -23,7 +23,7 @@ body {
     align-items: center;
 }
 
-body>* {
+body > * {
     width: 100%;
 }
 
