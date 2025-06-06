@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 18px;
+    line-height: 1.4;
+}
+
+body {
+    background-color: #eee;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.site {
+    background-color: #fff;
+    max-width: 80ch;
+    padding: 2em;
+    border: 1px solid #eee;
+    border-radius: 0.3em;
+    box-shadow: 0 0 1em 0 rgb(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.site p {
+    margin-bottom: 0.3em;
+}
+
+.site ul {
+    display: flex;
+    flex-direction: column;
+    margin-left: 2em;
+}
