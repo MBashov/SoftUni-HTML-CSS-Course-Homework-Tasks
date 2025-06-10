@@ -1,0 +1,119 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    background-color: #eee;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+}
+
+body>* {
+    width: 100%;
+}
+
+form {
+    max-width: 500px;
+    background-color: #fff;
+    border-radius: 0.3em;
+    box-shadow: 0 0 1em 0 rgb(0, 0, 0, 0.1em);
+    padding: 2em;
+}
+
+fieldset {
+    border: none;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+
+    legend {
+        font-size: 1.6em;
+        font-weight: bold;
+        margin-bottom: 2em;
+
+        &::after {
+            display: block;
+            content: '';
+            background-color: lightgrey;
+            width: 200%;
+            height: 2px;
+            margin-top: 1em;
+        }
+
+    }
+
+    span {
+        font-style: italic;
+        opacity: 0.6;
+    }
+
+}
+
+
+label {
+    font-weight: bold;
+    font-size: 1.1em;
+    display: flex;
+
+    &::after {
+        content: '*';
+        display: inline-block;
+        padding-left: 0.2em;
+        color: red;
+    }
+
+}
+
+input {
+    border: 2px solid lightgray;
+    padding: 1em;
+    outline: none;
+    border-radius: 0.3em;
+    display: block;
+    width: 100%;
+
+    &:focus {
+        border: 2px solid orange;
+    }
+}
+
+.field.icon {
+    position: relative;
+
+    &::before {
+        display: inline-block;
+        font-family: 'Font awesome 6 Free';
+        font-weight: 900;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+    &:has(#email)::before {
+        content: '\f0e0';
+    }
+
+    &:has(#password)::before {
+        content: '\f084';
+    }
+}
+
+input[type="submit"] {
+    background-color: orange;
+    color: #fff;
+    font-size: 1em;
+    border-radius: 0.3em;
+    outline: none;
+
+    &:focus {
+        background-color: darkorange;
+    }
+}
