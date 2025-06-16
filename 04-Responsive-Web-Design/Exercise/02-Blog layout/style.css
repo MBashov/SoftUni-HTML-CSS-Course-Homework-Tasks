@@ -18,9 +18,9 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    padding: 2em;
     justify-content: center;
     align-items: center;
+    padding: 2em;
 }
 
 body > * {

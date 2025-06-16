@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typography Test</title>
+    <link rel="stylesheet" href="../../styles/site.css">
+</head>
+
+<body>
+
+    <div class="section">
+        <div class="inner">
+
+            <header>
+                <h2>Login</h2>
+            </header>
+
+            <form action="#">
+                <fieldset>
+                    <legend>User Information</legend>
+
+                    <div class="field">
+                        <label for="email">Email</label>
+                        <div class="input-wraper">
+                            <input type="email" name="email" id="email" placeholder="Email" required>
+                        </div>
+                        <p class="info">Example: john@gmail.com</p>
+                    </div>
+
+                    <div class="field">
+                        <label for="password">Password</label>
+                        <div class="input-wraper">
+                            <input type="password" name="password" id="password" placeholder="Password" required>
+                        </div>
+                        <p class="info">Minimum 6 characters...</p>
+                    </div>
+
+                    <div class="field">
+                        <label for="message">Message</label>
+                        <div class="input-wraper">
+                            <textarea name="message" id="message" placeholder="Message"></textarea>
+                        </div>
+                        <p class="info">Minimum 6 characters...</p>
+                    </div>
+
+                    <div class="field">
+                        <label>Make your choise</label>
+                        <div class="input-wraper">
+                            <ul>
+                                <li><input type="radio" name="choise" id="choise-1" value="1"><label for="choise-1">Choise option 1</label></li>
+                                <li><input type="radio" name="choise" id="choise-2" value="2"><label for="choise-2">Choise option 2</label></li>
+                                <li><input type="radio" name="choise" id="choise-3" value="3"><label for="choise-3">Choise option 3</label></li>
+                            </ul>
+                        </div>
+                        <p class="info">Explain the choise</p>
+                    </div>
+
+                    <div class="field custom">
+                        <label>Make your choise</label>
+                        <div class="input-wraper">
+                            <ul>
+                                <li><input type="radio" name="choise" id="choise-1" value="1"><label for="choise-1">Choise option 1</label></li>
+                                <li><input type="radio" name="choise" id="choise-2" value="2"><label for="choise-2">Choise option 2</label></li>
+                                <li><input type="radio" name="choise" id="choise-3" value="3"><label for="choise-3">Choise option 3</label></li>
+                            </ul>
+                        </div>
+                        <p class="info">Explain the choise</p>
+                    </div>
+
+                    <input type="submit" class="button" value="Login">
+                </fieldset>
+
+            </form>
+
+        </div>
+    </div>
+
+</body>
+
+</html>

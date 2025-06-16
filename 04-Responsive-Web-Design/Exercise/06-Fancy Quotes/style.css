@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Lato, sans-serif;
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+body {
+    background-color: #eee;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+p {
+    padding-bottom: 1.5em;
+    opacity: 0.6;
+}
+
+.section.quotes {
+    display: flex;
+    gap: 2em;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.section.quotes .main {
+    display: flex;
+    flex-direction: column;
+    gap: inherit;
+}
+
+.section.quotes .aside {
+    display: flex;
+    flex-direction: column;
+    gap: inherit;
+    flex: 1 1 50ch;
+}
+
+.section.quotes .aside>* {
+    flex-grow: 1;
+}
+
+.section.quotes .card {
+    background-color: #fff;
+    border-radius: 0.3em;
+    box-shadow: 0 0 1em 0 rgb(0, 0, 0, 0.1);
+    padding: 1.5em;
+    display: flex;
+    align-items: center;
+}
+
+.section.quotes .card .avatar {
+    flex: 0 0 15ch;
+    background-color: green;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    box-shadow: 0 0 1em 0 rgb(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.section.quotes .card .avatar img {
+    display: block;
+    width: 100%;
+}
+
+.section.quotes .card h3 {
+    order: 999;
+}
+
+.section.quotes .card svg {
+    width: 4em;
+}
+
+.section.quotes .aside .card {
+    flex-direction: column;
+    align-items: start;
+}
+
+.section.quotes .aside .card .avatar {
+    flex-basis: 12ch;
+    margin-top: 2em;
+}
+
+@media (width < 601px) {
+    .section.quotes {
+        padding: 1em;
+        font-size: 1.2em;
+        flex-direction: column;
+    }
+
+    .section.quotes .aside .card {
+        flex-direction: row;
+        flex-grow: 0;
+    }
+
+    .card {
+        gap: 1em;
+    }
+}
+
+@media (max-width: 401px) {
+    .section.quotes .main .card {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section.quotes .aside .card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0;
+    }
+}
