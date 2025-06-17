@@ -1,0 +1,174 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+body>* {
+    width: 100%;
+
+}
+
+header {
+    background: url('./images/background.jpg') no-repeat center center/cover;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    gap: 2em;
+
+    nav {
+        padding: 1.2em;
+
+        ul {
+            display: flex;
+            gap: 2em;
+            justify-content: flex-end;
+        }
+
+        li {
+            display: block;
+        }
+
+        a {
+            color: white;
+            text-decoration: none;
+            font-size: large;
+        }
+    }
+
+    .header-title {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        gap: 3em;
+
+        h1 {
+            color: white;
+            font-size: 2em;
+        }
+
+        p {
+            color: white;
+            font-size: larger;
+        }
+
+        button {
+            margin-bottom: 4em;
+            padding: 1em 2em;
+            cursor: pointer;
+            font-weight: bold;
+            border: none;
+        }
+    }
+}
+
+.choose-us {
+    background-color:#e6f0f5;
+    
+    ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2em;
+        padding-block: 3em;
+    }
+
+    img {
+        width: 4em;
+        height: auto;
+    }
+
+    li {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1.2em;
+
+        p {
+            width: 35ch;
+        }
+    }
+}
+
+.about-us {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+    padding-block: 3em;
+
+    h3 {
+        font-size: x-large;
+    }
+
+    p.subheader {
+        font-style: italic;
+        font-size: large;
+        color: #333;
+    }
+    
+    p.content {
+        width: 700px;
+        font-size: large;
+        margin: 0 auto;
+        color: #444;
+    }
+}
+
+.team-description {
+    background-color: #e6f0f5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+    padding-block: 4em;
+
+    img {
+       width: 9em; 
+       height: auto;
+       padding-block: 1em;
+    }
+
+    ul {
+        display: flex;
+        gap: 4em
+    }
+
+    li {
+        display: block;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        p:first-of-type {
+            font-weight: bold;
+        }        
+
+        p:last-of-type{
+            font-style: italic;
+            color: #444;
+        }
+    }
+}
+
+footer {
+    background-color: #333;
+
+    p {
+        color: white;
+        text-align: center;
+        padding: 1.1em;
+    }
+}

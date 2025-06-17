@@ -1,0 +1,171 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background: url('./images/background.jpg') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 100px 20px 60px;
+    position: relative;
+}
+
+nav {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.header-title h1 {
+    font-size: 32px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.header-title p {
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+.header-title button {
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* Choose Us */
+.choose-us {
+    background-color: #e6f0f5;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.choose-us ul {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 30px;
+    list-style: none;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.choose-us li {
+    flex: 1;
+    min-width: 250px;
+    max-width: 300px;
+}
+
+.choose-us img {
+    width: 80px;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.choose-us h4 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* About Us */
+.about-us {
+    padding: 60px 40px;
+    text-align: center;
+    background-color: white;
+}
+
+.about-us h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.about-us > p:first-of-type {
+    font-style: italic;
+    margin-bottom: 20px;
+    color: #666;
+}
+
+.about-us > p:last-of-type {
+    max-width: 700px;
+    margin: 0 auto;
+    color: #444;
+}
+
+/* Team Description */
+.team-description {
+    background-color: #e6f0f5;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.team-description-wrapper h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.team-description-wrapper > p {
+    margin-bottom: 40px;
+    color: #666;
+}
+
+.team-description-wrapper ul {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    list-style: none;
+    flex-wrap: wrap;
+}
+
+.team-description-wrapper li {
+    text-align: center;
+}
+
+.team-description-wrapper img {
+    width: 150px;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.team-description-wrapper li p:first-of-type {
+    font-weight: bold;
+    font-style: italic;
+}
+
+.team-description-wrapper li p:last-of-type {
+    font-size: 14px;
+    color: #555;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px 10px;
+    font-size: 14px;
+}
