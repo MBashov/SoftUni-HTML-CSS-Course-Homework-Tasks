@@ -1,0 +1,59 @@
+@media(width <=600px) {
+
+    nav ul {
+        display: none;
+    }
+
+    .checkbtn {
+        display: block;
+        order: 1;
+    }
+
+    .site-header > i, h1 {
+        text-align: initial;
+        position: static;
+        bottom: initial;
+    }
+
+    .site-header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .site-header>i {
+        left: 0;
+    }
+
+    .about {
+        display: flex;
+        gap: 1em;
+        margin-bottom: 3em;
+    }
+
+    .about-header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: static;
+        flex: 1 1 50%;
+        width: auto;
+    }
+
+    .about-text {
+        width: auto;
+        display: block;
+        margin: 0;
+        flex: 1 1 50%;
+    }
+
+    .gallery {
+        /* display: flex;
+        flex-wrap: wrap;
+        justify-content: center; */
+        text-align: center;
+    }
+
+}
